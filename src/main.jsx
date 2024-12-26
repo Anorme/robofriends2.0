@@ -4,9 +4,9 @@ import { createStore, applyMiddleware, combineReducers } from 'redux';
 import { createLogger } from "redux-logger";
 import { thunk } from "redux-thunk";
 import './index.css'; 
-import App from './containers/App.jsx';
+import App from './containers/App';
 import 'tachyons';
-import { searchRobots, requestRobots } from "./reducers.js";
+import { searchRobots, requestRobots } from "./reducers";
 
 const logger = createLogger();
 
