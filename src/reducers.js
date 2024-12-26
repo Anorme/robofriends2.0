@@ -9,7 +9,7 @@ const initialStateSearch = {
   searchField: '',
 }
 
-initialStateRobots = {
+const initialStateRobots = {
   isPending: false,
   robots: [],
   error: ''
